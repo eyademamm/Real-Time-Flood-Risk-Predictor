@@ -1,0 +1,10 @@
+# Generated files - not needed on GitHub
+data/
+models/
+reports/
+__pycache__/
+*.pyc
+
+# Kaggle credentials - NEVER push this
+.kaggle/
+kaggle.json

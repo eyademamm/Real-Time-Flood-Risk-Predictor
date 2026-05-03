@@ -99,6 +99,7 @@ with st.sidebar:
             with st.spinner("Training… (this may take a few minutes)"):
                 from train import train_and_evaluate
                 train_and_evaluate()
+                st.cache_resource.clear()
                 st.success("Training complete!")
                 st.rerun()
 
